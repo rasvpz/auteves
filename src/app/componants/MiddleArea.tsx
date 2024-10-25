@@ -55,7 +55,7 @@ const MiddleArea = () => {
             className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
             onClick={() => toggleDetails('card1')}
           >
-            What You’ll Gain...
+            What You will Gain...
           </button>
           
           {/* Conditionally render content based on showDetails['card1'] */}
@@ -67,7 +67,7 @@ const MiddleArea = () => {
                 <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">Practical skills that will give you an edge in business or a career in accounting at Cherpulassery.</li>
               </ul>
               <p className="text-slate-800 p-2 leading-tight">
-                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Don’t miss this opportunity to learn from the best!
+                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Do not miss this opportunity to learn from the best!
               </p>
             </>
           )}
@@ -86,13 +86,13 @@ const MiddleArea = () => {
             <h1 className="text-slate-950 text-xl p-3 font-semibold leading-tight">Become a Pro in Tally prime from an Expert Trainer in Cherpulassery!</h1>
           </Link>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
-            Unlock the world of accounting with our hands-on course in Manual Accounting, GST, and Tally! Led by a <strong>seasoned Tally trainer</strong> with years of experience, this course provides practical, in-depth knowledge in accounting fundamentals and GST, all designed to get you career-ready. Whether you’re a beginner or seeking to enhance your skills.
+            Unlock the world of accounting with our hands-on course in Manual Accounting, GST, and Tally! Led by a <strong>seasoned Tally trainer</strong> with years of experience, this course provides practical, in-depth knowledge in accounting fundamentals and GST, all designed to get you career-ready. Whether you are a beginner or seeking to enhance your skills.
           </p>
           <button
             className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
             onClick={() => toggleDetails('card2')}
           >
-            What You’ll Gain...
+            What You will Gain...
           </button>
           
           {/* Conditionally render content based on showDetails['card2'] */}
@@ -104,7 +104,7 @@ const MiddleArea = () => {
                 <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">A perfect foundation for a career in finance and accounting.</li>
               </ul>
               <p className="text-slate-800 p-2 leading-tight">
-                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Don’t miss this opportunity to learn from the best!
+                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Don not miss this opportunity to learn from the best!
               </p>
             </>
           )}
@@ -131,7 +131,7 @@ const MiddleArea = () => {
             className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
             onClick={() => toggleDetails('card3')}
           >
-            What You’ll Gain...
+            What You will Gain...
           </button>
           
           {/* Conditionally render content based on showDetails['card2'] */}
@@ -142,7 +142,7 @@ const MiddleArea = () => {
                 <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">Expert-Level Understanding of GST: Gain practical skills in GST management directly from an experienced GST consultant.</li>
               </ul>
               <p className="text-slate-800 p-2 leading-tight">
-                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Don’t miss this opportunity to learn from the best!
+                Classes are available in <strong>Cherpulassery</strong> and open to residents and working emloyees of nearby cities, including <strong>Pattambi, Koppam, Shornur, Perinthalmanna, Mannarkad, Ottapalam, and Kongad</strong>. Do not miss this opportunity to learn from the best!
               </p>
             </>
           )}
@@ -162,12 +162,12 @@ const MiddleArea = () => {
             <h1 className="text-slate-900 text-xl p-3 font-semibold leading-tight">SAP and Tally Course with an Expert Training in Cherpulassery!</h1>
           </Link>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
-          Take the next step in your career with our <strong>SAP and Tally Professional</strong> Course. Our seasoned trainer brings years of <strong>expertise in Tally and SAP</strong> to provide you with practical, hands-on skills tailored to real-world business needs. Whether you're new to accounting software or looking to advance your skills, this course will prepare you with the essential tools to excel roles.</p>
+          Take the next step in your career with our <strong>SAP and Tally Professional</strong> Course. Our seasoned trainer brings years of <strong>expertise in Tally and SAP</strong> to provide you with practical, hands-on skills tailored to real-world business needs. Whether you are new to accounting software or looking to advance your skills, this course will prepare you with the essential tools to excel roles.</p>
           <button
             className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
             onClick={() => toggleDetails('card4')}
           >
-            What You’ll Gain...
+            What You will Gain...
           </button>
           
           {/* Conditionally render content based on showDetails['card2'] */}
