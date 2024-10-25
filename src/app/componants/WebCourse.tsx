@@ -1,22 +1,16 @@
-import { useRouter } from 'next/router'
+
 import {  FaAngleDown  } from "react-icons/fa"
 import Image from 'next/image'
 
 import React from 'react'
 
 const WebCourse = () => {
-    const router = useRouter(); // Initialize the router
 
-    const handleLoginClick = () => {
-      // Navigate programmatically to the login page
-      router.push('/about');
-    };
   return (
     <>
 <div className='flex lg:px-8 pb-4 mt-4'>
   <h1
     className="flex items-center p-4 text-white bg-slate-950 opacity-85 font-semibold cursor-pointer whitespace-nowrap"
-    onClick={handleLoginClick} // Call handleLoginClick on click
   >
     Web & Mobile Development Courses  
     <FaAngleDown className="hover:text-gray-400 ml-2" size={30} /> 
