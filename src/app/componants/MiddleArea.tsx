@@ -25,7 +25,7 @@ const MiddleArea = () => {
     <>
       <div className="flex lg:px-8 pb-4 lg:mt-0 mt-4">
         <h1
-          className="flex items-center p-4 text-white bg-slate-950 opacity-85 font-semibold cursor-pointer whitespace-nowrap"
+          className="flex items-center p-4 text-white bg-slate-950 opacity-85 font-bold cursor-pointer whitespace-nowrap"
           onClick={handleLoginClick}
         >
           Accounting with GST, Tally & SAP
@@ -37,7 +37,7 @@ const MiddleArea = () => {
         {/* First Card */}
         <div
           className={`${
-            showDetails["card1"] ? "max-h-[920px]" : "max-h-[518px]"
+            showDetails["card1"] ? "max-h-[920px]" : "max-h-[524px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           <Link href="https://www.facebook.com/profile.php?id=61567655038718">
@@ -49,7 +49,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               Manual Accounting with GST from an Expert Trainer in Cherpulassery
             </h1>
           </Link>
@@ -61,11 +61,9 @@ const MiddleArea = () => {
             and professionals alike who want to master the essential skills of
             accounting and GST and no previous experience required!
           </p>
-          <div>
-            
-          </div>
+          <div></div>
           <button
-          className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-8 self-end"
             onClick={() => toggleDetails("card1")}
           >
             What You will Gain...
@@ -103,7 +101,7 @@ const MiddleArea = () => {
         {/* Second Card */}
         <div
           className={`${
-            showDetails["card2"] ? "max-h-[920px]" : "max-h-[518px]"
+            showDetails["card2"] ? "max-h-[920px]" : "max-h-[524px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
@@ -116,7 +114,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-              <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               Become a Pro in Tally prime from an Expert Trainer in
               Cherpulassery!
             </h1>
@@ -130,7 +128,7 @@ const MiddleArea = () => {
             you are a beginner or seeking to enhance your skills.
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
             onClick={() => toggleDetails("card2")}
           >
             What You will Gain...
@@ -168,7 +166,7 @@ const MiddleArea = () => {
 
         <div
           className={`${
-            showDetails["card3"] ? "max-h-[920px]" : "max-h-[518px]"
+            showDetails["card3"] ? "max-h-[920px]" : "max-h-[524px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
@@ -181,7 +179,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-              <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               Master Your Accounting Skill with our GST course in Cherpulassery!
             </h1>
           </Link>
@@ -193,7 +191,7 @@ const MiddleArea = () => {
             <strong> Tally expert with years of industry experience</strong>
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
             onClick={() => toggleDetails("card3")}
           >
             What You will Gain...
@@ -228,7 +226,7 @@ const MiddleArea = () => {
 
         <div
           className={`${
-            showDetails["card4"] ? "max-h-[920px]" : "max-h-[518px]"
+            showDetails["card4"] ? "max-h-[920px]" : "max-h-[524px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
@@ -241,7 +239,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               SAP and Tally Course with an Expert Training in Cherpulassery!
             </h1>
           </Link>
@@ -255,7 +253,7 @@ const MiddleArea = () => {
             you with the essential tools to excel roles.
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
             onClick={() => toggleDetails("card4")}
           >
             What You will Gain...
