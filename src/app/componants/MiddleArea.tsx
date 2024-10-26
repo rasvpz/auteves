@@ -49,7 +49,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-950 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
               Manual Accounting with GST from an Expert Trainer in Cherpulassery
             </h1>
           </Link>
@@ -61,8 +61,11 @@ const MiddleArea = () => {
             and professionals alike who want to master the essential skills of
             accounting and GST and no previous experience required!
           </p>
+          <div>
+            
+          </div>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
+          className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
             onClick={() => toggleDetails("card1")}
           >
             What You will Gain...
@@ -113,7 +116,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-950 text-xl p-3 font-semibold leading-tight">
+              <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
               Become a Pro in Tally prime from an Expert Trainer in
               Cherpulassery!
             </h1>
@@ -127,7 +130,7 @@ const MiddleArea = () => {
             you are a beginner or seeking to enhance your skills.
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
             onClick={() => toggleDetails("card2")}
           >
             What You will Gain...
@@ -178,7 +181,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-950 text-xl p-3 font-semibold leading-tight">
+              <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
               Master Your Accounting Skill with our GST course in Cherpulassery!
             </h1>
           </Link>
@@ -190,7 +193,7 @@ const MiddleArea = () => {
             <strong> Tally expert with years of industry experience</strong>
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
             onClick={() => toggleDetails("card3")}
           >
             What You will Gain...
@@ -238,7 +241,7 @@ const MiddleArea = () => {
               priority
               className="w-full object-cover"
             />
-            <h1 className="text-slate-900 text-xl p-3 font-semibold leading-tight">
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-semibold leading-tight">
               SAP and Tally Course with an Expert Training in Cherpulassery!
             </h1>
           </Link>
@@ -252,7 +255,7 @@ const MiddleArea = () => {
             you with the essential tools to excel roles.
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer m-4 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-3 mr-3 mb-3 self-end"
             onClick={() => toggleDetails("card4")}
           >
             What You will Gain...
