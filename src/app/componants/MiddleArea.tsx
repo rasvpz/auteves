@@ -37,7 +37,7 @@ const MiddleArea = () => {
         {/* First Card */}
         <div
           className={`${
-            showDetails["card1"] ? "max-h-[920px]" : "max-h-[524px]"
+            showDetails["card1"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           <Link href="https://www.facebook.com/profile.php?id=61567655038718">
@@ -61,7 +61,6 @@ const MiddleArea = () => {
             and professionals alike who want to master the essential skills of
             accounting and GST and no previous experience required!
           </p>
-          <div></div>
           <button
             className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-8 self-end"
             onClick={() => toggleDetails("card1")}
@@ -101,7 +100,7 @@ const MiddleArea = () => {
         {/* Second Card */}
         <div
           className={`${
-            showDetails["card2"] ? "max-h-[920px]" : "max-h-[524px]"
+            showDetails["card2"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
@@ -166,7 +165,7 @@ const MiddleArea = () => {
 
         <div
           className={`${
-            showDetails["card3"] ? "max-h-[920px]" : "max-h-[524px]"
+            showDetails["card3"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
@@ -226,7 +225,7 @@ const MiddleArea = () => {
 
         <div
           className={`${
-            showDetails["card4"] ? "max-h-[920px]" : "max-h-[524px]"
+            showDetails["card4"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
           } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
           {" "}
