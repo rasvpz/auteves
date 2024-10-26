@@ -50,7 +50,7 @@ const MiddleArea = () => {
               className="w-full object-cover"
             />
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
-              Manual Accounting with GST from an Expert Trainer in Cherpulassery
+              <mark>Manual Accounting with GST </mark> from an Expert Trainer in Cherpulassery
             </h1>
           </Link>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
@@ -114,7 +114,7 @@ const MiddleArea = () => {
               className="w-full object-cover"
             />
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
-              Become a Pro in Tally prime from an Expert Trainer in
+              Become a Pro in <mark> Tally prime</mark> from an Expert Trainer in
               Cherpulassery!
             </h1>
           </Link>
@@ -179,7 +179,7 @@ const MiddleArea = () => {
               className="w-full object-cover"
             />
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
-              Master Your Accounting Skill with our GST course in Cherpulassery!
+              Master Your Accounting Skill with our <mark>GST course</mark> in Cherpulassery!
             </h1>
           </Link>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
@@ -239,7 +239,7 @@ const MiddleArea = () => {
               className="w-full object-cover"
             />
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
-              SAP and Tally Course with an Expert Training in Cherpulassery!
+              <mark>SAP and Tally</mark> Course with an Expert Training in Cherpulassery!
             </h1>
           </Link>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
