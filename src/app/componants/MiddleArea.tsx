@@ -38,21 +38,23 @@ const MiddleArea = () => {
         <div
           className={`${
             showDetails["card1"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
-          } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+          } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
-          <Link href="https://www.facebook.com/profile.php?id=61567655038718">
-            <Image
-              src="./accountingWithGst.png"
-              alt="accounting"
-              width={307}
-              height={175}
-              priority
-              className="w-full object-cover"
-            />
+        <div className="relative pb-9/16 w-full">
+        <iframe
+          className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg "
+          src="https://www.youtube.com/embed/AfTCM6VGRN8?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml"
+          title="Accounting Class 2"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               <mark>Manual Accounting with GST </mark> from an Expert Trainer in Cherpulassery
             </h1>
-          </Link>
+
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
             Are you ready to build a solid foundation in accounting? Join our
             comprehensive course in <strong>Manual Accounting and GST</strong>,
