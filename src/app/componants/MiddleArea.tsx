@@ -37,7 +37,7 @@ const MiddleArea = () => {
         {/* First Card */}
         <div
           className={`${
-            showDetails["card1"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
+            showDetails["card1"] ? "max-h-[920px]" : "lg:max-h-[500px] max-h-[526px]"
           } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
         >
         <div className="relative pb-9/16 w-full">
@@ -55,6 +55,8 @@ const MiddleArea = () => {
               <mark>Manual Accounting with GST </mark> from an Expert Trainer in Cherpulassery
             </h1>
 
+            <hr className="border border-blue-900"/>
+            
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
             Are you ready to build a solid foundation in accounting? Join our
             comprehensive course in <strong>Manual Accounting and GST</strong>,
@@ -64,7 +66,7 @@ const MiddleArea = () => {
             accounting and GST and no previous experience required!
           </p>
           <button
-            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-8 self-end"
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-0 self-end"
             onClick={() => toggleDetails("card1")}
           >
             What You will Gain...
@@ -73,7 +75,7 @@ const MiddleArea = () => {
           {/* Conditionally render content based on showDetails['card1'] */}
           {showDetails["card1"] && (
             <>
-              <ul className="list-disc pl-10">
+              <ul className="list-disc pl-10 mt-4">
                 <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
                   A deep understanding of manual accounting practices.
                 </li>
@@ -101,25 +103,27 @@ const MiddleArea = () => {
 
         {/* Second Card */}
         <div
-          className={`${
-            showDetails["card2"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
-          } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
-        >
+        className={`${
+          showDetails["card2"] ? "max-h-[920px]" : "lg:max-h-[500px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
           {" "}
-          <Link href="https://www.facebook.com/profile.php?id=61567655038718">
-            <Image
-              src="./tallythumb.png"
-              alt="accounting"
-              width={307}
-              height={175}
-              priority
-              className="w-full object-cover"
-            />
+          <div className="relative pb-9/16 w-full">
+        <iframe
+          className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg "
+          src="https://www.youtube.com/embed/i8cL61v-rSM?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml" 
+          title="Tally Prime" 
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               Become a Pro in <mark> Tally prime</mark> from an Expert Trainer in
               Cherpulassery!
             </h1>
-          </Link>
+
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
             Unlock the world of accounting with our hands-on course in Manual
             Accounting, GST, and Tally! Led by a{" "}
@@ -166,24 +170,26 @@ const MiddleArea = () => {
         {/* Third Card */}
 
         <div
-          className={`${
-            showDetails["card3"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
-          } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
-        >
-          {" "}
-          <Link href="https://www.facebook.com/profile.php?id=61567655038718">
-            <Image
-              src="./gstthumbnails.png"
-              alt="gst"
-              width={307}
-              height={175}
-              priority
-              className="w-full object-cover"
-            />
+        className={`${
+          showDetails["card3"] ? "max-h-[920px]" : "lg:max-h-[500px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+
+<div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/IBZtdr3t2xc?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml" 
+          title="GST Training"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               Master Your Accounting Skill with our <mark>GST course</mark> in Cherpulassery!
             </h1>
-          </Link>
+
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
             Are you ready to build a career in accounting or upgrade your
             financial management skills? Our Complete Accounting Course—covering
@@ -226,24 +232,27 @@ const MiddleArea = () => {
         {/* Fourth Card */}
 
         <div
-          className={`${
-            showDetails["card4"] ? "max-h-[920px]" : "lg:max-h-[518px] max-h-[526px]"
-          } bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
-        >
+        className={`${
+          showDetails["card4"] ? "max-h-[920px]" : "lg:max-h-[500px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
           {" "}
-          <Link href="https://www.facebook.com/profile.php?id=61567655038718">
-            <Image
-              src="./sapthumbnail.png"
-              alt="sap"
-              width={307}
-              height={175}
-              priority
-              className="w-full object-cover"
-            />
+          <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+              src="https://www.youtube.com/embed/paStT256QpU?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1"
+              title="SAP Hana"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
               <mark>SAP and Tally</mark> Course with an Expert Training in Cherpulassery!
             </h1>
-          </Link>
+
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
             Take the next step in your career with our{" "}
             <strong>SAP and Tally Professional</strong> Course. Our seasoned
