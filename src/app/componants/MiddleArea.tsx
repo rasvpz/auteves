@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { FaAngleDown } from "react-icons/fa";
-import Image from "next/image";
-import Link from "next/link";
 import WebCourse from "./WebCourse";
 import TechnicalCourse from "./TechnicalCourse";
 
