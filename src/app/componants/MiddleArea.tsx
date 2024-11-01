@@ -41,7 +41,7 @@ const MiddleArea = () => {
         <div className="relative pb-9/16 w-full">
         <iframe
           className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg "
-          src="https://www.youtube.com/embed/AfTCM6VGRN8?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml"
+          src="https://www.youtube.com/embed/AfTCM6VGRN8?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1"
           title="Accounting Class 2"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -109,7 +109,7 @@ const MiddleArea = () => {
           <div className="relative pb-9/16 w-full">
         <iframe
           className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg "
-          src="https://www.youtube.com/embed/i8cL61v-rSM?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml" 
+          src="https://www.youtube.com/embed/i8cL61v-rSM?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1" 
           title="Tally Prime" 
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -176,7 +176,7 @@ const MiddleArea = () => {
 <div className="relative pb-9/16 w-full">
             <iframe
               className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
-          src="https://www.youtube.com/embed/IBZtdr3t2xc?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml" 
+          src="https://www.youtube.com/embed/IBZtdr3t2xc?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1" 
           title="GST Training"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
