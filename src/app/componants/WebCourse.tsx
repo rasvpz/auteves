@@ -201,7 +201,7 @@ const WebCourse = () => {
         >
           <Link href="https://www.facebook.com/profile.php?id=61567655038718">
             <Image
-              src="./javascript.png"
+              src="./javaScript.png"
               alt="reactJs"
               width={307}
               height={175}
