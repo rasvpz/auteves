@@ -173,10 +173,10 @@ const MiddleArea = () => {
         } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
       >
 
-<div className="relative pb-9/16 w-full">
+        <div className="relative pb-9/16 w-full">
             <iframe
               className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
-          src="https://www.youtube.com/embed/IBZtdr3t2xc?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1" 
+          src="https://www.youtube.com/embed/Q56Gn27EoJo?list=PLdXVgtxMrtEeQ2v4mVZ-ywKWjD1291aml&autoplay=1&controls=1" 
           title="GST Training"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
