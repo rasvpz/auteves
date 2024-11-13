@@ -1,5 +1,4 @@
 import {  FaAngleDown  } from "react-icons/fa"
-import Image from 'next/image'
 import React, { useState } from 'react'
 
 const WebCourse = () => {
