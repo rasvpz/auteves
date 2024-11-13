@@ -323,7 +323,7 @@ const WebCourse = () => {
             ></iframe>
           </div>
             <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
-            Master the Power of <mark>MySQL</mark> from the Ground Up! If you want to become a <mark>PRO</mark> in the field of <mark>database management</mark>
+            Master the Power of <mark>MySQL</mark> from the Ground Up! If you want to become a <mark>PRO</mark> in the field of <mark>DB management</mark>
             </h1>
           <p className="text-slate-800 pl-2 pr-2 leading-tight">
           This is the course for you  to build a <b>strong foundation in databases?</b> This MySQL course is designed to take you 
@@ -426,65 +426,294 @@ const WebCourse = () => {
           )}
         </div>
 
-<div className="bg-white opacity-95 p-4 text-white text flex flex-col justify-center items-center">
-  <Image
-    className="lg:mb-4 mt-4"
-    src="./cicd.png"
-    alt="cicd"
-    width={143}
-    height={189}
-    priority
-  />
-  <h1 className="text-slate-950 mt-2 text-3xl font-bold mb-4">CI / CD Pipeline</h1> 
-</div>
+        <div
+          className={`${
+            showDetails["card8"] ? "max-h-[1500px]" : "lg:max-h-[540px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+        <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/-BlPBtsqmVQ?list=PLdXVgtxMrtEdvNV4-GHWz0JiqQLGtxFo-&autoplay=1&controls=1" 
+          title="CI_Cd PipeLine"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
+            Welcome to our <mark>CI/CD</mark> Mastery Course! tailored specifically for <mark>Node.js</mark>, <mark>Next.js</mark>, and <mark>Java</mark> applications 
+            </h1>
+          <p className="text-slate-800 pl-2 pr-2 leading-tight">
+          In this course, we dive into the world of CI/CD (Continuous Integration and Continuous Deployment) pipelines tailored 
+          specifically for Node.js, Next.js, and Java applications. You will gain hands-on experience building efficient, automated 
+          pipelines from scratch, covering essential tools and processes like Git, GitHub Actions, Jenkins, Docker & Kubernetes
 
-<div className="bg-white opacity-95 p-4 text-white text flex flex-col justify-center items-center">
-  <Image
-    className="lg:mb-4 mt-4"
-    src="./html.png"
-    alt="cicd"
-    width={143}
-    height={189}
-    priority
-  />
-  <h1 className="text-slate-950 mt-2 text-3xl font-bold mb-4">HTML</h1> 
-</div>
+          </p>
+          <button
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
+            onClick={() => toggleDetails("card8")}
+          >
+            What You will Gain...
+          </button>
 
-<div className="bg-white opacity-95 p-4 text-white text flex flex-col justify-center items-center">
-  <Image
-    className="lg:mb-4 mt-4"
-    src="./css.png"
-    alt="cicd"
-    width={143}
-    height={189}
-    priority
-  />
-  <h1 className="text-slate-950 mt-2 text-3xl font-bold mb-4">CSS</h1> 
-</div>
+          {/* Conditionally render content based on showDetails['card1'] */}
+          {showDetails["card8"] && (
+            <>
+              <ul className="list-disc pl-10">
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Strong Foundation in CI/CD : </strong> Learn how CI/CD can transform your development process, from continuous integration to seamless deployment.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Real-World Skills : </strong>  Gain practical skills by working with industry-standard tools and building workflows used in modern development teams.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Increased Efficiency : </strong> Master automation to minimize manual tasks, speed up releases, and reduce errors.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Full Lifecycle Knowledge : </strong>  Understand the full application lifecycle from development to production, ensuring high-quality releases every time.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Confidence to Implement CI/CD Pipelines: </strong> Build, test, and deploy applications across multiple environments, equipping yourself to handle real-world scenarios.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Cross-Technology Expertise: </strong> Develop pipelines for Node.js, Next.js, and Java, making you versatile and valuable across different tech stacks.
+                </li>
+                </ul>
+              <p className="text-slate-800 p-2 leading-tight">
+              Whether you are a developer or a DevOps enthusiast, this course will help you streamline development, 
+              improve deployment efficiency, and ensure robust, automated workflows. Join us to enhance your skills, boost productivity, 
+              and build a solid foundation in modern CI/CD practices. Dont forget to subscribe for more tech tutorials!</p>
+            </>
+          )}
+        </div>
 
-<div className="bg-white opacity-95 p-4 text-white text flex flex-col justify-center items-center">
-  <Image
-    className="lg:mb-4 mt-4"
-    src="./bootstrap.png"
-    alt="cicd"
-    width={143}
-    height={189}
-    priority
-  />
-  <h1 className="text-slate-950 mt-2 text-3xl font-bold mb-4">Bootstrap</h1> 
-</div>
+        <div
+          className={`${
+            showDetails["card9"] ? "max-h-[1500px]" : "lg:max-h-[540px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+        <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/BtmGpemKtnw?list=PLdXVgtxMrtEcD5W9bel6WyE905gZNc8rx&autoplay=1&controls=1" 
+          title="html"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
+            Welcome to Our Complete <mark>HTML</mark> Basics to Advanced training course with <mark>Solid Foundation</mark>. 
+            </h1>
+          <p className="text-slate-800 pl-2 pr-2 leading-tight">
+          Whether you are new to coding or looking to sharpen your <b>HTML skills</b>, this course covers everything you need to 
+          <b>become proficient in HTML</b>, the foundational language of the web. Targeted at <b>aspiring web developers</b>, we guide 
+          you from <b>HTML basics</b> like structure and tags to <b>advanced topics</b> including forms, multimedia, semantic elements.
 
-<div className="bg-white opacity-95 p-4 text-white text flex flex-col justify-center items-center">
-  <Image
-    className="lg:mb-4 mt-4"
-    src="./tailwind.png"
-    alt="cicd"
-    width={143}
-    height={189}
-    priority
-  />
-  <h1 className="text-slate-950 mt-2 text-3xl font-bold mb-4">Tailwind</h1> 
-</div>
+          </p>
+          <button
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
+            onClick={() => toggleDetails("card9")}
+          >
+            What You will Gain...
+          </button>
+
+          {/* Conditionally render content based on showDetails['card1'] */}
+          {showDetails["card9"] && (
+            <>
+              <ul className="list-disc pl-10">
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Solid Foundation in Web Development </strong> Learn how CI/CD can transform your development process, from continuous integration to seamless deployment.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>HTML Best Practices </strong>  Gain practical skills by working with industry-standard tools and building workflows used in modern development teams.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Responsive Layouts </strong> Master automation to minimize manual tasks, speed up releases, and reduce errors.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Advanced HTML Techniques </strong>  Understand the full application lifecycle from development to production, ensuring high-quality releases every time.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Readiness for CSS and JavaScript </strong> Build, test, and deploy applications across multiple environments, equipping yourself to handle real-world scenarios.
+                </li>
+                </ul>
+              <p className="text-slate-800 p-2 leading-tight">
+              Whether you are aiming to build personal projects or pursue a career as a front-end developer, this course will 
+              give you the knowledge and confidence to move forward. Join us, subscribe, and lets start building the web, 
+              one line of HTML at a time!</p>   </>
+          )}
+        </div>
+
+        <div
+          className={`${
+            showDetails["card10"] ? "max-h-[1500px]" : "lg:max-h-[540px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+        <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/R5QfB0_DYHM?list=PLdXVgtxMrtEenN1F6zjV5NkyKaEO0WLfL&autoplay=1&controls=1" 
+          title="CSS"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
+            Master <mark>CSS</mark> from a Complete Guide for Aspiring Web Developers to <mark>strengthen the CSS skills</mark>. 
+            </h1>
+          <p className="text-slate-800 pl-2 pr-2 leading-tight">
+          Welcome to our all-encompassing <b>CSS course</b>, designed to take you from <b>beginner to pro</b>! Whether 
+          you are just starting out or looking to <b>strengthen your CSS skills</b>, this course is <b>tailored for aspiring web 
+          developers</b> who want to create stunning, responsive, and well-structured websites with 10+ projects for better understandings
+          </p>
+          <button
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
+            onClick={() => toggleDetails("card10")}
+          >
+            What You will Gain...
+          </button>
+
+          {/* Conditionally render content based on showDetails['card1'] */}
+          {showDetails["card10"] && (
+            <>
+              <ul className="list-disc pl-10">
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Foundational Knowledge </strong> Get a solid understanding of CSS fundamentals, including selectors, properties, and syntax.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Responsive Design Skills </strong>  Learn to make websites look great on any device by mastering CSS Flexbox, Grid, and responsive units.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Advanced Styling Techniques </strong> Dive into animations, transitions, transformations, and pseudo-classes to create dynamic user experiences.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>CSS Best Practices </strong>Discover methods to write clean, maintainable, and scalable CSS code, ensuring your projects are easy to manage.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Real-World Application </strong>Work on practical projects and challenges that solidify your skills and prepare you for real development environments.
+                </li>
+                </ul>
+              <p className="text-slate-800 p-2 leading-tight">
+              This course will empower you to create visually appealing, user-friendly websites and set you up for success 
+              as a front-end developer. Subscribe, join us, and lets style the web together!</p>   </>
+          )}
+        </div>
+
+        <div
+          className={`${
+            showDetails["card11"] ? "max-h-[1500px]" : "lg:max-h-[540px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+        <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/nXZpBpHb908?list=PLdXVgtxMrtEf89h3ejRJpNRF8U6KPEGWd&autoplay=1&controls=1" 
+          title="Bootstrap"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
+            Learn <mark>Bootstrap</mark> from <mark>Basics to Advanced</mark> The Ultimate Guide for Aspiring Web Developers 
+            </h1>
+          <p className="text-slate-800 pl-2 pr-2 leading-tight">
+          Dive into our comprehensive <b>Bootstrap course</b>, perfect for beginners and experienced learners alike! Designed for aspiring 
+          web developers, this course will <b>guide you through the essentials of Bootstrap</b>, helping you to build  the responsive, visually 
+          appealing websites quickly and effectively by the help of ecperienced trainers
+          </p>
+          <button
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
+            onClick={() => toggleDetails("card11")}
+          >
+            What You will Gain...
+          </button>
+
+          {/* Conditionally render content based on showDetails['card1'] */}
+          {showDetails["card11"] && (
+            <>
+              <ul className="list-disc pl-10">
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Foundational Bootstrap Skills </strong> Get comfortable with the Bootstrap framework, including components, utilities, and layout systems.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Responsive Web Design</strong>  Master the Bootstrap grid and breakpoints to create mobile-friendly websites that adapt to any screen size.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Advanced Bootstrap Customization </strong>  Learn to customize themes, work with Sass for styling, and implement JavaScript plugins for interactive elements.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Hands-On Projects </strong>  Build real-world projects to practice and solidify your Bootstrap skills, preparing you to tackle professional web development tasks.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Efficiency in Development </strong> Discover how Bootstrap can streamline your workflow, reduce repetitive coding, and help you deliver high-quality designs faster.
+                </li>
+                </ul>
+              <p className="text-slate-800 p-2 leading-tight">
+              Whether you are aiming to build personal projects or pursue a career as a front-end developer, this course will 
+              give you the knowledge and confidence to move forward. Join us, subscribe, and lets start building the web, 
+              one line of HTML at a time!</p>   </>
+          )}
+        </div>
+
+        <div
+          className={`${
+            showDetails["card12"] ? "max-h-[1500px]" : "lg:max-h-[540px] max-h-[526px]"
+        } rounded-lg bg-white opacity-95 text-white flex flex-col justify-top items-center border-2 border-white`}
+      >
+        <div className="relative pb-9/16 w-full">
+            <iframe
+              className="top-0 left-0 w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+          src="https://www.youtube.com/embed/PMfgbpXAgfY?list=PLdXVgtxMrtEcbKiu2gd--f19AuQyxrmzx&autoplay=1&controls=1" 
+          title="Tailwind Css"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+            <h1 className="text-slate-950 lg:text-slate-950 sm:text-slate-950 md:text-slate-950 text-xl p-3 font-bold leading-tight">
+            Master <mark>Tailwind CSS</mark> from Basics to Advanced. A Complete Guide for <mark>Aspiring Web Developers</mark> 
+            </h1>
+          <p className="text-slate-800 pl-2 pr-2 leading-tight">
+          Welcome to our <b>comprehensive Tailwind CSS course</b>, designed to take you from the basics to advanced skills. 
+          Tailored for aspiring web developers, this course will help you build stylish, responsive, and fully 
+          customized websites using Tailwind CSS, <b>the powerful utility-first CSS framework</b> especially for reactJs developers.
+
+
+          </p>
+          <button
+            className="bg-slate-950 p-1 px-2 cursor-pointer mt-4 mr-4 mb-4 self-end"
+            onClick={() => toggleDetails("card12")}
+          >
+            What You will Gain...
+          </button>
+
+          {/* Conditionally render content based on showDetails['card1'] */}
+          {showDetails["card12"] && (
+            <>
+              <ul className="list-disc pl-10">
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Strong Foundation in Tailwind CSS</strong> Learn the essentials, from utility classes to the Tailwind configuration file.</li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Responsive and Modern Design Skills</strong> Master responsive design principles with Tailwinds mobile-first utilities, making your sites look great on any device.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Advanced Customization Techniques</strong>  Dive into advanced concepts like custom themes, using plugins, and configuring Tailwind for different project needs.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Efficiency in Development</strong> Discover how Tailwind speeds up your workflow, reduces the need for writing custom CSS, and allows for rapid prototyping.
+                </li>
+                <li className="text-slate-800 pl-2 pr-2 mb-2 leading-tight">
+                <strong>Real-World Practice</strong>  Build hands-on projects to apply and reinforce your skills, giving you the confidence to handle professional web development tasks.
+                </li>
+                </ul>
+              <p className="text-slate-800 p-2 leading-tight">
+              Whether you are aiming to build personal projects or pursue a career as a front-end developer, this course will 
+              give you the knowledge and confidence to move forward. Join us, subscribe, and lets start building the web, 
+              one line of HTML at a time!</p>   </>
+          )}
+        </div>
 
 </div>
 </>
