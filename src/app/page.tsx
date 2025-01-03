@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './componants/NavBar';
 import Banner from './componants/Banner';
 import MiddleArea from './componants/MiddleArea';
+import Footer from './componants/Footer';
 
 const Page = () => {
 
@@ -12,6 +13,7 @@ const Page = () => {
     <Navbar />
     <Banner />
     <MiddleArea />
+    <Footer />
     </div>
   );
 };
