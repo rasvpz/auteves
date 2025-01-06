@@ -45,7 +45,7 @@ const Footer = () => {
           />
           <div className="flex flex-col">
             <span className="text-xl font-bold lg:text-2xl">auteves</span>
-            <span className='text-lg mt-[-12px] text-right'>academy Cherpulassery</span>
+            <span className='text-lg mt-[-12px] text-right'>academy Cherpulassery...</span>
           </div>
         </div>
         </div>
